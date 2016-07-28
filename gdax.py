@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
 import argparse
 import json
 import requests
@@ -40,6 +41,6 @@ for (i, ask) in enumerate(data['asks']):
             cost_of_btc += (next_cost * remaining)
             break
 
-print 'BTC requested: {}'.format(args.btc);
-print 'BTC purchased: {}'.format(amount_of_btc);
-print 'BTC cost:      {}'.format(cost_of_btc)
+print ('BTC requested: {}'.format(args.btc))
+print ('BTC purchased: {}'.format(amount_of_btc))
+print ('BTC cost:      {}'.format(cost_of_btc))
