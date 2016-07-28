@@ -1,6 +1,6 @@
 # Simple BTC calculation demo
 
-Leverages the Coinbase Global Digital Asset Exchange (GDAX) digital currency exchange.
+Leverages the [Coinbase Global Digital Asset Exchange (GDAX)](https://www.gdax.com) digital currency exchange.
 
 ## Requirements
 
