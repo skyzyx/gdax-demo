@@ -22,9 +22,14 @@ pip install -r requirements.txt
 ## Usage
 
 ```
+# Application help
 ./gdax.py -h
 
+# Cost for 1.0 BTC
 ./gdax.py 1.0
+
+# Cost for 0.15224176 BTC (≈$100 at 2016-07-28T20:27:52+0000)
+./gdax.py 0.15224176
 ```
 
 ## Parameters
