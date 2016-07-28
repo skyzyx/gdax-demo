@@ -43,6 +43,8 @@ We want to take the amount of BTC desired as the upper limit. We start at the be
 
 For the final value (i.e., value remaining), we only want to take a portion of the next value. We can subtract the remaining desired from what is available, calculate that cost, and add these values to the data we've already collected.
 
+It's simple arithmetic. :+1:
+
 ## Known Issues
 
 * Cost calculation does not currently do any rounding or "to fixed" for currency calculations.
